@@ -70,7 +70,7 @@ jobs:
         with:
           poetry-version: 1.1.4
       - name: Retrieve the built package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: dist
           path: dist
@@ -94,7 +94,7 @@ jobs:
         with:
           poetry-version: 1.1.4
       - name: Retrieve the built package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: dist
           path: dist
